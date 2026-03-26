@@ -1,0 +1,59 @@
+* {
+ font-family: Roboto;
+}
+
+body {
+ margin: 0;
+ padding: 0;
+}
+
+header {
+ background-color: #1f2937;
+ padding: 20px 100px;
+}
+
+nav {
+ display: flex;
+ justify-content: space-around;
+}
+
+nav a {
+ color: white;
+ text-decoration: none;
+}
+
+.header-logo-container {
+ align-items: left;
+}
+
+.header-logo {
+ font-weight: bolder;
+ font-size: 24px;
+}
+
+.nav-buttons-container {
+ display: flex;
+ gap: 20px;
+ align-items: center;
+}
+
+.nav-buttons {
+ color: #e5e7eb;
+ font-size: 18px;
+}
+
+#hero {
+ background-color: #1f2937;
+ display: flex;
+}
+
+.hero-main-text {
+ font-size: 48px;
+ color: #F9FAF8;
+ font-weight: 900;
+}
+
+.footer {
+ background-color: #1f2937;
+}
+
