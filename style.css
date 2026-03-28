@@ -4,17 +4,20 @@
 
 body {
  margin: 0;
- padding: 0;
+ padding: 0px 600px;
 }
 
+/* Navbar section*/
 header {
  background-color: #1f2937;
- padding: 20px 100px;
+ flex-shrink: 0;
+ padding-top: 25px;
 }
 
 nav {
  display: flex;
- justify-content: space-around;
+ justify-content: space-between;
+ padding: 0px 300px;
 }
 
 nav a {
@@ -22,29 +25,34 @@ nav a {
  text-decoration: none;
 }
 
-.header-logo-container {
- align-items: left;
-}
-
 .header-logo {
- font-weight: bolder;
- font-size: 24px;
+ font-weight: 900;
+ font-size: 32px;
 }
 
 .nav-buttons-container {
  display: flex;
  gap: 20px;
- align-items: center;
 }
 
 .nav-buttons {
  color: #e5e7eb;
- font-size: 18px;
+ font-size: 24px;
+ font-weight: 200;
 }
 
+/* Hero section */
 #hero {
  background-color: #1f2937;
  display: flex;
+ padding: 150px 300px;
+ justify-content: space-between;
+}
+
+.hero-text-container {
+ display: flex;
+ flex-direction: column;
+ width: 800px;
 }
 
 .hero-main-text {
@@ -53,7 +61,69 @@ nav a {
  font-weight: 900;
 }
 
-.footer {
- background-color: #1f2937;
+h2 {
+ margin: -20px 0px;
 }
 
+.hero-secondary-text {
+ font-size: 24px;
+ color: #E5E7EB;
+ font-weight: 200;
+ padding: 0px 90px 0px 0px;
+}
+
+.hero-button {
+ width: 150px;
+ background-color: #3882f6;
+ color: #F9FAF8;
+ font-weight: bolder;
+ font-size: 18px;
+ padding: 10px 40px;
+ white-space: nowrap;
+ border-radius: 10px;
+ overflow: hidden;
+ 
+}
+
+.wailord {
+ height: 375px;
+}
+
+/* Info / card section */
+#second-row-container {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin-bottom: 250px;
+}
+
+.second-row-title {
+ font-weight: 900;
+ font-size: 36px;
+ padding: 90px 0px;
+}
+
+.four-box-sub-container {
+ display: flex;
+ gap: 80px;
+}
+
+.boxes {
+ border: 6px solid #3882f6;
+ border-radius: 20px;
+ background-color: white;
+ height: 210px;
+ width: 210px;
+}
+
+.subtext {
+ margin-top: 225px;
+ font-size: 22px;
+ color: #6B6B6B;
+ text-align: center;
+ font-weight: 500;
+}
+.footer {
+ margin-top: 100px;
+ background-color: #1f2937;
+}
